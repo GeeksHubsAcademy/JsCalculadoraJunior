@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    
+    <div class="calculadora">
+        
+            <div class="pantalla">
+                <div class="lcd">
+                    <div id="operacion" class="muestraOperacion"></div>
+                    <div id="cifras" class="muestraCifra"></div>
+                </div>
+            </div>
+            <div class="teclado">
+                <div class="fila">
+                    <div onclick="pulsaBoton('7')" class="tecla tecla7">7</div>
+                    <div onclick="pulsaBoton('8')" class="tecla tecla8">8</div>
+                    <div onclick="pulsaBoton('9')" class="tecla tecla9">9</div>
+                    <div onclick="pulsaBoton('+')" class="tecla tecla+">+</div>
+                </div>
+                <div class="fila">
+                    <div onclick="pulsaBoton('4')" class="tecla tecla4">4</div>
+                    <div onclick="pulsaBoton('5')" class="tecla tecla5">5</div>
+                    <div onclick="pulsaBoton('6')" class="tecla tecla6">6</div>
+                    <div onclick="pulsaBoton('-')" class="tecla tecla-">-</div>
+                </div>
+                <div class="fila">
+                    <div onclick="pulsaBoton('1')" class="tecla tecla1">1</div>
+                    <div onclick="pulsaBoton('2')" class="tecla tecla2">2</div>
+                    <div onclick="pulsaBoton('3')" class="tecla tecla3">3</div>
+                    <div onclick="pulsaBoton('*')" class="tecla tecla*">*</div>
+                </div>
+                <div class="fila">
+                    <div onclick="pulsaBoton('0')" class="tecla tecla0">0</div>
+                    <div onclick="pulsaBoton('.')" class="tecla tecla.">.</div>
+                    <div onclick="pulsaBoton('C')" class="tecla teclaC">C</div>
+                    <div onclick="pulsaBoton('/')" class="tecla tecla/">/</div>
+                </div>
+                <div class="filaFinal">
+                    <div onclick="pulsaBoton('=')" class="teclaIgual">=</div>
+                </div>
+            
+            </div>
+        
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
